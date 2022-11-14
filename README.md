@@ -1,6 +1,6 @@
 # apiauth
 移动端token auth
-登录态TOKEN加减密
+登录态TOKEN加解密
 
 
 ## 安装部署
