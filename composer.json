@@ -3,6 +3,19 @@
     "description": "app api token auth",
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "stable",
-    "require": {}
+    "authors": [
+        {
+            "name": "CHT",
+            "email": "chenht2799@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "SdsAuth\\src\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "minimum-stability": "stable"
 }
