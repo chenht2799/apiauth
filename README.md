@@ -3,10 +3,11 @@
 登录态TOKEN加减密
 
 
-#安装部署
+## 安装部署
 composer require chenht2799/apiauth
 
-#laravel 适配安装
+## laravel 适配安装
+
 一、先在 config/app.php 添加 providers
 ```
 SdsAuth\src\UserTokenServiceProvider::class
